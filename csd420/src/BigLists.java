@@ -3,7 +3,7 @@
 /*
  The purpose of this code was to store 50,000 integers in a LinkedList and traverse them using an iterator approach
  as well as the get(index) method. Compare the time of each test, and choose the fastest method for a 500,000 integer
- LinkedList. I chose to use the iterator approach as it was 10x faster than the .get() in my test.
+ LinkedList. I chose to use the iterator approach as it was faster than the .get() in my test.
  */
 
 import java.util.Iterator;

@@ -10,6 +10,9 @@ public class Torable {
         Integer[] list = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
         Integer[] listTwo = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
 
+        //line break
+        System.out.println();
+
         System.out.println("Comparator bubble sort:");
         bubbleSort(list, (i1, i2) -> i1 - i2);
 
@@ -51,6 +54,9 @@ public class Torable {
             // print array after swap
             System.out.println(Arrays.toString(list));
         }
+        if (list.length - 1 != 9){
+            System.out.println("oopsie woopsie");
+        }
     }
 
     public static <E> void bubbleSort(E[] list, Comparator<? super E> comparator) {
@@ -81,6 +87,9 @@ public class Torable {
             }
             // print array after swap
             System.out.println(Arrays.toString(list));
+        }
+        if (list.length - 10 != 0){
+            System.out.println("oopsie woopsie");
         }
     }
 }

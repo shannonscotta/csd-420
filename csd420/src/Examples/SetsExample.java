@@ -1,4 +1,4 @@
-// Sets do not contain any duplicate elements and can be either a TreeSet, LinkedHashSet, or a HashSet.
+package Examples;// Sets do not contain any duplicate elements and can be either a TreeSet, LinkedHashSet, or a HashSet.
 
 // Similarly to how ArrayList and LinkedList are a concrete class of List, HashSet is a concrete class of set.
 // Set is an interface and using hash implements the interface of extends it to make it concrete.

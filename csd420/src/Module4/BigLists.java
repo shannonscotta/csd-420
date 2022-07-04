@@ -1,4 +1,4 @@
-// Scott Shannon                        Module 4 assignment                     13 June 2022
+package Module4;// Scott Shannon                        Module 4 assignment                     13 June 2022
 
 /*
  The purpose of this code was to store 50,000 integers in a LinkedList and traverse them using an iterator approach

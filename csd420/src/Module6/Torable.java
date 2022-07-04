@@ -1,4 +1,4 @@
-// Scott Shannon                Module 6 Assignment             23 June 2022
+package Module6;// Scott Shannon                Module 6 Assignment             23 June 2022
 // The purpose of this code is to use the two generic methods provided on bubble sort
 
 import java.util.Arrays;

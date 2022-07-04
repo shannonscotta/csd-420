@@ -1,3 +1,5 @@
+package Examples;
+
 import java.io.FileInputStream;
 
 public class ReadTester {

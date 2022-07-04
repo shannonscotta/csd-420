@@ -1,4 +1,4 @@
-//scott shannon             CSD 420 Module 3 Assignment             1 JUNE 2022
+package Module3;//scott shannon             CSD 420 Module 3 Assignment             1 JUNE 2022
 // The purpose of this code is to write a method that returns a new Arraylist without duplicates from a random ArrayList
 
 import java.util.*;

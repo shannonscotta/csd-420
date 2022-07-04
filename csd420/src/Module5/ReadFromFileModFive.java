@@ -1,4 +1,4 @@
-// Scott Shannon                    Mod 5 Assignment                    19 June 2022
+package Module5;// Scott Shannon                    Mod 5 Assignment                    19 June 2022
 /*
 write a program that reads words from a text file, displays all non-duplicates and then displays them in ascending and
 descending order

@@ -22,7 +22,7 @@ public class Select5Example {
       System.out.println("Connection established - now executing a select");
 
       Statement stmt = con.createStatement();
-      ResultSet rs = stmt.executeQuery("SELECT * FROM address33");
+      ResultSet rs = stmt.executeQuery("SELECT * FROM fans");
 
      System.out.println("Received Results:");
 

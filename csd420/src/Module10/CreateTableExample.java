@@ -45,8 +45,10 @@ public class CreateTableExample {
 
     try{
 
-      stmt.executeUpdate("CREATE TABLE fans(ID int PRIMARY KEY,LASTNAME varchar(40)," +
-                         "FIRSTNAME varchar(40), STREET varchar(40))");
+      //The table name is to be “fans” with the fields of ID (integer, PRIMARY KEY), firstname (varchar(25)), lastname (varchar(25)), and favoriteteam (varchar(25)).
+
+      stmt.executeUpdate("CREATE TABLE fans(ID integer PRIMARY KEY,FIRSTNAME varchar(25), LASTNAME varchar(25)," +
+                         "FAVORITETEAM varchar(25))");
       System.out.println("Table address Created");
  
     }

@@ -32,19 +32,19 @@ public class InsertDataExample {
     try{
 
       System.out.println(
-              stmt.executeUpdate("INSERT INTO fans VALUES(1,'Lebron','James','Lakers'") + "row updated");
+      stmt.executeUpdate("INSERT INTO fans VALUES(1,'Lebron','James','Lakers')") + "row updated");
 
       System.out.println(
-              stmt.executeUpdate("INSERT INTO fans VALUES(2,'Michael','Jordon','Bulls'") + "row updated");
+      stmt.executeUpdate("INSERT INTO fans VALUES(2,'Michael','Jordan','Bulls')") + "row updated");
+      
+      System.out.println(
+      stmt.executeUpdate("INSERT INTO fans VALUES(3,'Larry','Bird','Celtics')") + "row updated");
+      
+      System.out.println(
+      stmt.executeUpdate("INSERT INTO fans VALUES(4,'Kobe','Bryant','Lakers')") + "row updated");
 
       System.out.println(
-              stmt.executeUpdate("INSERT INTO fans VALUES(3,'Larry','Bird','Celtics'") + "row updated");
-
-      System.out.println(
-              stmt.executeUpdate("INSERT INTO fans VALUES(4,'Kobe','Bryant','Lakers'") + "row updated");
-
-      System.out.println(
-              stmt.executeUpdate("INSERT INTO fans VALUES(5,'Kevin','Durant','Nets'") + "row updated");
+      stmt.executeUpdate("INSERT INTO fans VALUES(5,'Kevin','Durant','Nets')") + "row updated");
 
       stmt.executeUpdate("COMMIT");
 
